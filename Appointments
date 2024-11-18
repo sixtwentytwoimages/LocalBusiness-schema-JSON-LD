@@ -1,0 +1,24 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your personalized photography session with Sixtwentytwo Images. Get a consultation call and curated planning for family, pet, or brand photography.">
+    <meta name="keywords" content="book photography session, consultation call, photography appointment, family portraits, pet photography, Sioux Falls photography">
+    <meta property="og:title" content="Book Your Photography Session | Sixtwentytwo Images">
+    <meta property="og:description" content="Schedule your custom photography session with Sixtwentytwo Images. We offer consultation calls and personalized planning for family, pet, and brand portraits.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="https://www.sixtwentytwoimages.com/appointments">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Service",
+        "name": "Photography Appointment",
+        "serviceType": "Photography Session",
+        "provider": {
+            "@type": "Organization",
+            "name": "Sixtwentytwo Images",
+            "url": "https://www.sixtwentytwoimages.com/appointments"
+        }
+    }
+    </script>
+    <title>Book Your Photography Session | Sixtwentytwo Images</title>
+</head>
