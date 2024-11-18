@@ -1,0 +1,21 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the portfolio of Sixtwentytwo Images, showcasing family portraits, pet photography, brand photography, and conceptual photography in Sioux Falls, SD.">
+    <meta name="keywords" content="portfolio, fine art photography, family portraits, pet photography, brand photography, Sioux Falls photography">
+    <meta property="og:title" content="Photography Portfolio | Fine Art Portraits, Pet Photography & More | Sixtwentytwo Images">
+    <meta property="og:description" content="Browse the portfolio of Sixtwentytwo Images, offering fine art portrait, pet, brand, and conceptual photography sessions in Sioux Falls, SD.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="https://www.sixtwentytwoimages.com/portfolio">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "CreativeWork",
+        "name": "Sixtwentytwo Images Portfolio",
+        "description": "A showcase of fine art photography, including family portraits, pet photography, brand sessions, and conceptual photography in Sioux Falls, SD.",
+        "url": "https://www.sixtwentytwoimages.com/portfolio",
+        "image": "URL_TO_IMAGE"
+    }
+    </script>
+    <title>Photography Portfolio | Fine Art Portraits, Pet Photography & More | Sixtwentytwo Images</title>
+</head>
