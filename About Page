@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Sixtwentytwo Images, offering fine art photography services specializing in family, pet, and brand portraits in Sioux Falls, SD.">
+    <meta name="keywords" content="Sixtwentytwo Images, fine art photography, Sioux Falls photography, about Sixtwentytwo Images, family portraits, pet photography, brand photography">
+    <meta property="og:title" content="About Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD">
+    <meta property="og:description" content="Get to know Sixtwentytwo Images, your go-to photography business in Sioux Falls, SD, specializing in family portraits, pet photography, and brand photography.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="https://www.sixtwentytwoimages.com/about">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Sixtwentytwo Images",
+        "description": "Fine art photography services specializing in family portraits, pet photography, conceptual photography, and brand photography.",
+        "url": "https://www.sixtwentytwoimages.com/about",
+        "logo": "URL_TO_LOGO",
+        "sameAs": [
+            "https://www.facebook.com/SixtwentytwoImages",
+            "https://www.instagram.com/sixtwentytwoimages"
+        ]
+    }
+    </script>
+    <title>About Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD</title>
+</head>
