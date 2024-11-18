@@ -1,15 +1,33 @@
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Sixtwentytwo Images",
-  "name": "Sixtwentytwo Images",
-  "description": "Capture timeless memories with fine art photography by Sixtwentytwo Images in Sioux Falls, SD. Specializing in family portraits, pet photography, conceptual sessions, and brand photography, each session is curated to tell your unique story.",
-  "url": "https://www.sixtwentytwoimages.com",
-  "image": "https://www.sixtwentytwoimages.com/path-to-your-image.jpg",
-  "sameAs": [
-    "https://www.facebook.com/sixtwentytwoimages",
-    "https://www.instagram.com/sixtwentytwoimages"
-  ],
-  "openingHours": "Mo-Su 08:00-20:00"
-}
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sixtwentytwo Images offers fine art photography in Sioux Falls, SD, specializing in family portraits, pet photography, conceptual sessions, and brand photography. Book your personalized session today!">
+    <meta name="keywords" content="fine art photography, Sioux Falls photography, family portraits, pet photography, brand photography, conceptual photography, photography sessions">
+    <meta property="og:title" content="Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD">
+    <meta property="og:description" content="Capture timeless moments with custom photography sessions at Sixtwentytwo Images, specializing in family portraits, pet photography, and brand photography. Serving Sioux Falls and beyond.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="https://www.sixtwentytwoimages.com/">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Sixtwentytwo Images",
+        "description": "Fine art photography services specializing in family portraits, pet photography, conceptual photography, and brand photography.",
+        "url": "https://www.sixtwentytwoimages.com",
+        "logo": "URL_TO_LOGO",
+        "image": "URL_TO_IMAGE",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sioux Falls",
+            "addressRegion": "SD",
+            "postalCode": "ZIP_CODE"
+        },
+        "telephone": "+1 123 456 7890",
+        "sameAs": [
+            "https://www.facebook.com/SixtwentytwoImages",
+            "https://www.instagram.com/sixtwentytwoimages"
+        ]
+    }
+    </script>
+    <title>Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD</title>
+</head>
