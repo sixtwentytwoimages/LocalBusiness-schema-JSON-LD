@@ -1,0 +1,22 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sixtwentytwo Images to book your photography session. Fill out the contact form and we’ll start planning your personalized session today.">
+    <meta name="keywords" content="contact photographer, Sixtwentytwo Images, photography inquiries, Sioux Falls photography, book photography session">
+    <meta property="og:title" content="Contact Sixtwentytwo Images | Book Your Photography Session">
+    <meta property="og:description" content="Reach out to Sixtwentytwo Images to book your photography session. We specialize in family, pet, and brand photography, offering personalized consultation calls.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="https://www.sixtwentytwoimages.com/contact">
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "ContactPage",
+        "url": "https://www.sixtwentytwoimages.com/contact",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "url": "https://www.sixtwentytwoimages.com/contact"
+        }
+    }
+    </script>
+    <title>Contact Sixtwentytwo Images | Book Your Photography Session</title>
+</head>
