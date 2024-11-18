@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Sixtwentytwo Images",
+  "name": "Sixtwentytwo Images",
+  "description": "Capture timeless memories with fine art photography by Sixtwentytwo Images in Sioux Falls, SD. Specializing in family portraits, pet photography, conceptual sessions, and brand photography, each session is curated to tell your unique story.",
+  "url": "https://www.sixtwentytwoimages.com",
+  "image": "https://www.sixtwentytwoimages.com/path-to-your-image.jpg",
+  "sameAs": [
+    "https://www.facebook.com/sixtwentytwoimages",
+    "https://www.instagram.com/sixtwentytwoimages"
+  ],
+  "openingHours": "Mo-Su 08:00-20:00"
+}
+</script>
