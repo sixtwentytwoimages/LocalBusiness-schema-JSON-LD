@@ -1,33 +1,68 @@
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sixtwentytwo Images offers fine art photography in Sioux Falls, SD, specializing in family portraits, pet photography, conceptual sessions, and brand photography. Book your personalized session today!">
-    <meta name="keywords" content="fine art photography, Sioux Falls photography, family portraits, pet photography, brand photography, conceptual photography, photography sessions">
-    <meta property="og:title" content="Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD">
-    <meta property="og:description" content="Capture timeless moments with custom photography sessions at Sixtwentytwo Images, specializing in family portraits, pet photography, and brand photography. Serving Sioux Falls and beyond.">
-    <meta property="og:image" content="URL_TO_IMAGE">
-    <meta property="og:url" content="https://www.sixtwentytwoimages.com/">
+    <title>Sixtwentytwo Images</title>
+
+    <!-- Structured Data (Schema.org) -->
     <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Sixtwentytwo Images",
-        "description": "Fine art photography services specializing in family portraits, pet photography, conceptual photography, and brand photography.",
-        "url": "https://www.sixtwentytwoimages.com",
-        "logo": "URL_TO_LOGO",
-        "image": "URL_TO_IMAGE",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Sioux Falls",
-            "addressRegion": "SD",
-            "postalCode": "ZIP_CODE"
+      "@context": "https://schema.org",
+      "@type": "ProfessionalServices",
+      "name": "Sixtwentytwo Images",
+      "image": "https://images.squarespace-cdn.com/content/v1/673619cb1d52847d84a31015/76942d3b-bb75-4ed1-82fc-f6552e97c7f4/Logo.png?format=500w",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4005 W 93rd St",
+        "addressLocality": "Sioux Falls",
+        "addressRegion": "SD",
+        "postalCode": "57108",
+        "addressCountry": "US"
+      },
+      "telephone": "6053716210",
+      "url": "https://www.sixtwentytwoimages.com",
+      "sameAs": [
+        "https://www.facebook.com/yourprofile",
+        "https://www.instagram.com/yourprofile"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "Varies",
+        "eligibleRegion": {
+          "@type": "Place",
+          "name": "Sioux Falls"
         },
-        "telephone": "+1 123 456 7890",
-        "sameAs": [
-            "https://www.facebook.com/SixtwentytwoImages",
-            "https://www.instagram.com/sixtwentytwoimages"
-        ]
+        "url": "https://www.sixtwentytwoimages.com",
+        "description": "Photography services, including portrait photography, family sessions, and group photoshoots."
+      }
     }
     </script>
-    <title>Sixtwentytwo Images | Fine Art Photography in Sioux Falls, SD</title>
-</head>
+
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Newsreader:ital,wght@0,400;0,700;1,400;1,700" as="style" type="text/css" crossorigin="anonymous">
+
+    <!-- Critical CSS -->
+    <style>
+      body {
+        font-family: 'Instrument Serif', serif, Arial, sans-serif;
+      }
+
+      /* Target and hide only specific elements */
+      h1#welcome-message, p#intro-text {
+        display: none !important;
+      }
+
+      /* Ensure Squarespace banner visibility */
+      .sqs-announcement-bar, .sqs-announcement-bar-content {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Website Content -->
+    <h1 id="welcome-message">Welcome to Sixtwentytwo Images!</h1>
+    <p id="intro-text">Capturing moments that tell your story through fine art photography.</p>
+  </body>
+</html>
