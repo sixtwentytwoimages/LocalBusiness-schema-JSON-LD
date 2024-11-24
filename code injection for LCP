@@ -1,0 +1,59 @@
+<!-- Preload Fonts to avoid blocking the rendering -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style" type="text/css" crossorigin="anonymous">
+
+<!-- Link to Google Fonts with font-display swap for fast render -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+
+<!-- Critical CSS for Above-the-Fold Content -->
+<style>
+  /* Body font family */
+  body {
+    font-family: 'Instrument Serif', serif, Arial, sans-serif;
+  }
+
+  /* Client Reviews section - Visible immediately without blocking rendering */
+  .user-items-list-item-container[data-section-id="673e495cadfcf37f2329fa9a"] .list-item-content__title {
+    font-size: 3rem;
+    visibility: visible; /* Ensure it's visible immediately */
+  }
+
+  .user-items-list-item-container[data-section-id="673e495cadfcf37f2329fa9a"] .list-item-content__description {
+    font-size: 1.4rem;
+    visibility: visible; /* Ensure it's visible immediately */
+  }
+
+  .user-items-list-item-container[data-section-id="673e495cadfcf37f2329fa9a"] .list-item-content__button {
+    font-size: 1.1rem;
+    visibility: visible; /* Ensure it's visible immediately */
+  }
+
+  /* Remove blocking transitions - Speed things up! */
+  .list-item-content__title, .list-item-content__description, .list-item-content__button {
+    transition: none !important; /* Remove any delays temporarily for testing */
+  }
+
+  /* Load Client Reviews Section Only After the Main Content is Visible */
+  .client-reviews {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .client-reviews.visible {
+    opacity: 1;
+  }
+</style>
+
+<!-- Lazy-load Client Reviews for Optimal Speed -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const reviewsSection = document.querySelector('.client-reviews');
+    if (reviewsSection) {
+      setTimeout(() => {
+        reviewsSection.classList.add('visible');
+      }, 500); // Load reviews after the initial content is visible
+    }
+  });
+</script>
+
+<!-- Defer Non-Critical JavaScript -->
+<script async src="your-script.js"></script> <!-- Replace with your actual script -->
